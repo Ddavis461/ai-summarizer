@@ -7,6 +7,7 @@ import { store } from "./services/store";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    {/* Provider services the app with something know as the store  */}
     <Provider store={store}>
       <App />
     </Provider>
